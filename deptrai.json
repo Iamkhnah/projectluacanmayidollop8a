@@ -1,13 +1,13 @@
 {
-    "OwnerSecretID": "4b3abc5fc495ad8e05b435b3272ba90c95924da9c8a14a6e686350301535bd22",
-    "Registered_ServiceID": "zenhub",
-    "Authentication": "0adce5b40d9f5ddbab276423a717f9e1b658291d9bb8f1a4961eba174e9cf838",
-    "V2_Authentication": "true",
-    "Key_Information": {
-        "NoKey_Requirement": true,
-        "Hardware_ID": "4b9ffc124e807bbb149b5c91fefdd2d85b0da318b7ed649d5e0f6bc3eb0d31a2",
-        "Premium_Mode": true,
-        "Notes": "Key Found",
-        "expiresAt": "N/A"
-    }
+  "OwnerSecretID": "4b3abc5fc495ad8e05b435b3272ba90c95924da9c8a14a6e686350301535bd22",
+  "Registered_ServiceID": "zenhub",
+  "Authentication": "d576d7b68a671220f5661a300d2fb8516180c619378e90c22e225f8bcd908927",
+  "V2_Authentication": "success",
+  "Key_Information": {
+    "NoKey_Requirement": false,
+    "Hardware_ID": "4b9ffc124e807bbb149b5c91fefdd2d85b0da318b7ed649d5e0f6bc3eb0d31a2",
+    "Premium_Mode": false,
+    "Notes": "Generated Key (V2)",
+    "expiresAt": "Tue Jan 21 2026 05:00:54 GMT-0600 (Central Standard Time)"
+  }
 }
