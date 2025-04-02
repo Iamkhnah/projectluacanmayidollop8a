@@ -1,1 +1,13 @@
-{"success":"Key founded","premium":true,"authentication":"3e23195edadfa566ab9a5ab8067f2efbd33c6295c2cfbc507d06be7c2d433bfa","expaired":"2054-08-05T16:46:40.786Z"}
+{
+  "OwnerSecretID": "4b3abc5fc495ad8e05b435b3272ba90c95924da9c8a14a6e686350301535bd22",
+  "Registered_ServiceID": "zenhub",
+  "Authentication": "b61aa704771a550d1a079a90d4edff7e8a9a8ec45080df356f16d4bb5d005d5e",
+  "V2_Authentication": "success",
+  "Key_Information": {
+    "NoKey_Requirement": true,
+    "Hardware_ID": "62778ad8378397ad403dbd7768accaeac2097f20d8e429578276d76ea5bda1f2",
+    "Premium_Mode": true,
+    "Notes": "Key Found.",
+    "expiresAt": "2054-08-05T16:46:40.786Z"
+  }
+}
