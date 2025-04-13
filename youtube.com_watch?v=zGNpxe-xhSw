@@ -1,0 +1,42 @@
+
+function config()
+	local fo = "vxezehub"
+	local fi = "saved.config"
+
+	local k = game:GetService("HttpService")
+	if not isfile(fo .. "/" .. fi) then
+		writefile(fo .. "/" .. fi, k:JSONEncode({
+			["Dough_King"] = {
+				["hop"] = 0,
+				["kill"] = 0
+			},
+			["Rip_Indra"] = {
+				["hop"] = 0,
+				["kill"] = 0
+			},
+			["DarkBeard"] = {
+				["hop"] = 0,
+				["kill"] = 0
+			}
+		}))
+	end
+	return (function(...)
+		local g = {
+			["cre"] = ...
+		}
+		g["get"] = function(v)
+			local tr = readfile(fo .. "/" .. fi)
+			return k:JSONDecode(tr)[v]
+		end 
+		g["set"] = function(v, a)
+			local tr = readfile(fo .. "/" .. fi)
+			local c = k:JSONEncode(tr)
+			local o = c[v][a]
+			c[v][a] = o + 1
+			writefile(fo .. "/" .. fi, k:JSONEncode(c))
+		end
+		return g
+	end)("Coded by khanh")
+end
+local Config_Lib = config()
+Config_Lib["set"]("Dough_King", "hop")
